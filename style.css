@@ -1,0 +1,347 @@
+#header{
+    height: 700px;
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+    background: #222 url(https://newxboxone.ru/wp-content/uploads/2021/06/2eb95f42aa03394e_1920xh.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header a {
+    margin-right: 40px;
+    text-transform: uppercase;
+    font: 14px Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+#header img {
+    margin-right: 100px;
+}
+
+
+.welcome h1 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font: 75px/75px Times New Roman, sans-serif;
+}
+
+.welcome h3 {
+    margin-top: 200px;
+    margin-bottom: 40px;
+    font: 40px/40px Arial, sans-serif;
+}
+
+.tell_me_more{
+    display: inline-block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font: bold 24px/24px Arial, sans-serif;
+    background: #fed136;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tell_me_more:hover {
+    background: coral;
+    color: #fff;
+}
+
+
+/*-------------------------------------------------*/
+#services {
+    padding: 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#services h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  //font: bold 40px/4;
+  text-align: center;
+}
+#services p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #777;
+}
+
+.services_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+
+  .service_item1 {
+      padding: 10px;
+      border: 1px solid red;
+      text-align: center;
+
+      transition: 1s;
+      width: 35%;
+      background: #222 url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECzx8N5bd3hUNhIr4dmR409-eakJD-UGTOg&usqp=CAU) no-repeat bottom center ;
+       border-radius: 15px;
+      cursor: pointer;
+  }
+  .service_item1:hover {
+    background-color: white;
+    //opacity: 0.8;
+    width: 32%;}
+    .service_item2 {
+      padding: 10px;
+      border: 1px solid red;
+      text-align: center;
+      transition: 1s;
+      width: 28%;
+      height: 150px;
+      background: #222 url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWuw-UXP2SjWuMdEDGT0U71eXR-dHV7Gch3-etVGKH0o16JGRoH1eOVk191xyrHghDFCk&usqp=CAU) no-repeat bottom;
+    
+      border-radius: 15px;
+      cursor: pointer;
+  }
+.service_item2:hover {
+    background-color: black;
+    //opacity: 0.8;
+    width: 32%;
+}
+.service_item3 {
+      padding: 10px;
+      border: 1px solid red;
+      text-align: center;
+      transition: 1s;
+      width: 28%;
+      background: #222 url(https://hardcore-gamer.s3.amazonaws.com/uploads/2021/06/ForzaHorizon5Logo.jpg) no-repeat bottom;
+    
+      border-radius: 15px;
+      cursor: pointer;
+  }
+.service_item3:hover {
+    background-color: black;
+    //opacity: 0.8;
+    width: 32%;}
+    .service_item4 {
+      padding: 10px;
+      border: 1px solid red;
+      text-align: center;
+      transition: 1s;
+      width: 28%;
+      background: #222 url(https://static.cdn.asset.aparat.com/avt/34300339-3709__1592.jpg) no-repeat bottom;
+   
+      border-radius: 15px;
+      cursor: pointer;
+  }
+.service_item4:hover {
+    background-color: black;
+    //opacity: 0.8;
+    width: 32%;}
+  .service_item {
+      padding: 10px;
+      border: 1px solid red;
+      text-align: center;
+      transition: 1s;
+      width: 28%;
+      background: #222 url(https://cdn.vox-cdn.com/thumbor/IZcUyE9rodk7jmzsxN43ETgWJu8=/0x0:1920x1080/1200x800/filters:focal(485x320:791x626) no-repeat bottom;
+    
+      border-radius: 15px;
+      cursor: pointer;
+  }
+.service_item:hover {
+    background-color: #fed136;
+    //opacity: 0.8;
+    width: 32%;
+    height: 100px;
+}
+ .service_item5 {
+      padding: 10px;
+      border: 1px solid red;
+      text-align: center;
+      transition: 1s;
+      width: 28%;
+      background: #222 url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHrXGIvaUfQMP7yCc6NQlzGYnKqrzmmABQN-mcWJ7ZASA1PScfH_ZRPKHjOy6U49rmRE&usqp=CAU) no-repeat bottom;
+    
+      border-radius: 15px;
+      cursor: pointer;
+  }
+.service_item5:hover {
+    background-color: black;
+    //opacity: 0.8;
+    width: 32%;
+}
+.service_item h2 {
+    margin-bottom: 10px;
+    font: bold 18px/18px Arial, sans-serif;
+    color: #222;
+}
+
+.service_item p {
+    font-size: 18px;
+    color: #777;
+    line-height: 24px;
+}
+
+.service_item i {
+    font-size: 100px;
+    color: coral;
+}
+
+/*.service_item:hover i {*/
+    /*color: #fed136;*/
+/*}*/
+
+/*--------------------- Portfolio ----------------------------*/
+#portfolio {
+    margin-bottom: 70px;
+    background: #f7f7f7;
+    padding: 70px;
+}
+#portfolio img {
+    font-size: 
+}
+
+.portfolio_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.portfolio_item {
+    width: 30%;
+    text-align: center;
+}
+.portfolio_item img:hover {
+    opacity: 0.6;
+}
+#portfolio h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  //font: bold 40px/4;
+    text-align: center;
+}
+#portfolio p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #777;
+}
+
+/*---------------------ABOUT US----------------------------*/
+#about_us{
+    padding-bottom: 70px;
+}
+  #about_us h2{
+      margin-bottom: 10px;
+      text-transform: uppercase;
+  //font: bold 40px/4;
+      text-align: center;
+  }
+
+  #about_us p{
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #777;
+  }
+  #about_us iframe {
+      margin: 0 auto;
+      display: block;
+      margin-top: 70px;
+  }
+
+/*-------------------- FORM -----------------------------*/
+  #form{
+      text-align: center;
+      background: #222 url(img/maps-bg.png) no-repeat right bottom;
+      padding: 90px 50px;
+  }
+
+#form h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font: bold 40px/40px Arial, sans-serif;
+    color: #fff;
+}
+#form p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+  #message {
+      width: 940px;
+      margin: 0 auto;
+  }
+  .form_group{
+      display: flex;
+      margin-top: 70px;
+  }
+
+.form_group .left{
+    width: 50%;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+.form_group .right{
+    width: 50%;
+}
+.form_group input, .form_group textarea{
+    width: 80%;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    background: #fff;
+    font: bold 14px/14px Arial, sans-serif;
+    color: #444;
+    border-radius: 4px;
+}
+
+.form_group textarea {
+    height: 175px;
+    border: none;
+    resize: none;
+}
+#send_message{
+    display: inline-block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font: bold 24px/24px Arial, sans-serif;
+    background: #fed136;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#send_message:hover {
+    background: coral;
+    color: #fff;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.social_group{
+    width: 250px;
+}
+.social_group .fab{
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
